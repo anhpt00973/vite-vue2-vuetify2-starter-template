@@ -4,7 +4,8 @@
 
 ## Start
 ```
-    npx degit sonjuane/vite-vue2-vuetify2-starter-template my-project
+npx degit sonjuane/vite-vue2-vuetify2-starter-template my-project
+pnpm install
 ```
 
 ```bash
