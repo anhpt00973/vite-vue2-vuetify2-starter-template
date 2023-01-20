@@ -11,7 +11,7 @@ const routes = [
     meta: { requiresAuth: true },
     children: [
       {
-        path: '/',
+        path: '/home',
         name: 'Home',
         component: () => import('@/views/Home.vue'),
       },
@@ -19,6 +19,11 @@ const routes = [
         path: '/about',
         name: 'About',
         component: () => import('@/views/About.vue'),
+      },
+      {
+        path: '/',
+        name: 'EmailSignature',
+        component: () => import('@/views/EmailSignature.vue'),
       },
     ],
   },

@@ -1,9 +1,8 @@
 
 <template>
   <Base>
-    <v-container fill-height fluid>
-      <EmailCard />
-    </v-container>
+    <h1>Signature Generator</h1>
+    <EmailCard />
   </Base>
   <!-- <router-view /> -->
 </template>

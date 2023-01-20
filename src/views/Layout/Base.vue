@@ -1,12 +1,16 @@
 <template>
   <v-app>
     <v-main>
-      <div>
+      <!-- <div>
         <v-btn text :to="{ name: 'Home' }" exact>Home</v-btn>
         <v-btn text :to="{ name: 'About' }" exact>About</v-btn>
-      </div>
-
-      <router-view />
+        <v-btn text :to="{ name: 'EmailSignature' }" exact
+          >Email Signature</v-btn
+        >
+      </div> -->
+      <slot>
+        <router-view />
+      </slot>
     </v-main>
 
     <main-footer />
@@ -14,10 +18,10 @@
 </template>
 
 <script>
-import MainFooter from '@/components/MainFooter.vue';
+import MainFooter from "@/components/MainFooter.vue";
 
 export default {
-  name: 'Base',
+  name: "Base",
   components: {
     MainFooter,
   },

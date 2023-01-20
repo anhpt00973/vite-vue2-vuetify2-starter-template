@@ -8,6 +8,9 @@ import path from 'path';
  * @type {import('vite').UserConfig}
  */
 module.exports = {
+  base: process.env.NODE_ENV === 'production'
+    ? '' // prod
+    : '/', // dev
   resolve: {
     alias: [
       {
