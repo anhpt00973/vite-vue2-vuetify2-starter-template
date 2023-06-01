@@ -1,0 +1,18 @@
+:root {
+	/* default mode colors */
+	--background-family1: #ffffff;  /* */
+	--container-background1: #072d50; /*   1*/
+	--text-color1: #072d50; /*  */
+	--highlight-text-color1: #ffffff; /*  */
+	--container-acive-color1: #6e6d6d8a; /*  */
+	--border-color1: 1px solid rgba(6, 2, 241, 0.12);
+	--button-color1: #072d50;
+	--navbar-text-color1: #8399AB;
+
+	--background-family2: #072d50;  /*  */
+	--container-background2: #ffffff; /*  */
+	--text-color2: #ccccdc; /*  */
+	--highlight-text-color2: #ffffff; /*  */
+	--container-acive-color2: #c3c3c38a; /*   */
+	--border-color2: 1px solid rgba(70, 79, 88, 0.12);
+ }

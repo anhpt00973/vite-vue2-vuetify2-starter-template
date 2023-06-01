@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Default",
+        "background-family1": "#ffffff",
+        "container-background1": "#072d50",
+        "text-color1": "#072d50",
+        "highlight-text-color1": "#ffffff",
+        "container-acive-color1": "#6e6d6d8a",
+        "border-color1": "1px solid #dddddd",
+        "button-color1": "#072d50",
+        "navbar-text-color1": "#8399AB",
+
+        "background-family2": "#072d50",
+        "container-background2": "#ffffff",
+        "text-color2": "#ccccdc",
+        "highlight-text-color2": "#ffffff",
+        "container-acive-color2": "#c3c3c38a",
+        "border-color2": "1px solid rgba(70, 79, 88, 0.12)"
+    },
+    {
+        "name": "Dark Mode",
+        "background-family1": "#111217",
+        "container-background1": "#1e1e1e",
+        "text-color1": "#ccccdc",
+        "highlight-text-color1": "#ffffff",
+        "container-acive-color1": "#6e6d6d8a",
+        "border-color1": "1px solid #4e545f",
+        "button-color1": "rgb(61, 113, 217)",
+        "navbar-text-color1": "#acb1b6"
+    },
+    {
+        "name": "Light Mode",
+        "background-family1": "#f4f5f5",
+        "container-background1": "#ffffff",
+        "text-color1": "#24292e",
+        "highlight-text-color1": "#000000",
+        "container-acive-color1": "#cacaca",
+        "border-color1": "1px solid #dddddd ",
+        "button-color1": "#072d50",
+        "navbar-text-color1": "#8399AB"
+    }
+]

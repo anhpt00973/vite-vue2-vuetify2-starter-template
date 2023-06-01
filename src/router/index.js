@@ -6,26 +6,21 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '',
-    component: Base,
-    meta: { requiresAuth: true },
+    path: '/',
+    name: 'Home',
+    component: () => import('/src/views/Home.vue'),
     children: [
-      {
-        path: '/home',
-        name: 'Home',
-        component: () => import('@/views/Home.vue'),
-      },
-      {
-        path: '/about',
-        name: 'About',
-        component: () => import('@/views/About.vue'),
-      },
-      {
-        path: '/',
-        name: 'EmailSignature',
-        component: () => import('@/views/EmailSignature.vue'),
-      },
-    ],
+        {
+            path: '/',
+            name: 'Dashboard1',
+            component: () => import('../views/DashBoards/dashboard1.vue'),
+        },
+        {
+            path: '/dashboard1',
+            name: 'Dashboard1',
+            component: () => import('../views/DashBoards/dashboard1.vue'),
+        },
+    ]
   },
 ];
 

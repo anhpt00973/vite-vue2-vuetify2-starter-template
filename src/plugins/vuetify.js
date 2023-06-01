@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Vuetify from 'vuetify/lib/framework';
 import zhHans from 'vuetify/es5/locale/zh-Hans';
 import '../assets/styles/material-icons.css';
+import '@/sass/overrides.sass';
 
 Vue.use(Vuetify);
 
@@ -11,6 +12,6 @@ export default new Vuetify({
     current: 'zhHans',
   },
   icons: {
-    iconfont: 'md',
+    iconfont: 'md' || 'fa',
   },
 });

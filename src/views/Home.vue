@@ -1,21 +1,33 @@
 <template>
-  <div>
-    <img
-      alt="Vue logo"
-      src="../assets/logo.png"
-    />
-    <HelloWorld msg="Hello Vue 2 + Vite" />
-  </div>
+  <v-app>
+      <AppBar></AppBar>
+      <DrawerSolo></DrawerSolo>
+      <v-main>
+        <router-view></router-view>
+          <AppCustomizer/>
+      </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld.vue';
 
 export default {
-  name: 'Home',
-
+  name: 'HomePage',
   components: {
-    HelloWorld,
-  },
-};
+      AppBar: () => '../components/system/AppBar.vue',
+      DrawerSolo: () => '../components/system/DrawerSolo.vue',
+      AppCustomizer: () => "../@core/layouts/components/app-customizer/AppCustomizer.vue",
+  }
+}
 </script>
+<style lang="scss">
+.logo-banner {
+width: 40px;
+height: 40px;
+}
+.v-main {
+padding: 0;
+margin: 0;
+background-color: var(--background-family1);
+}
+</style>
